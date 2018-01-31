@@ -1,1 +1,1 @@
-include ':app', ':1.flowlayout', ':2.myviewpager', ':3.touchtest'
+include ':app', ':1.flowlayout', ':2.myviewpager', ':3.touchtest', ':4.paint'

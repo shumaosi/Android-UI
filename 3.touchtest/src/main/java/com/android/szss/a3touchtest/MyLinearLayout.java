@@ -1,7 +1,11 @@
 package com.android.szss.a3touchtest;
 
 import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.LinearLayout;
@@ -53,4 +57,11 @@ public class MyLinearLayout extends LinearLayout {
 
     }
 
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        Paint paint = new Paint();
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setColor(ContextCompat.getColor(getContext(), R.color.colorAccent));
+    }
 }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              android:gravity="center"
+              android:orientation="vertical">
+
+
+    <!--<com.android.szss.a4paint.MyView
+        android:id="@+id/myview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <!-- <com.android.szss.a4paint.PathDashPathView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>-->
+
+
+    <!--dashEffect 动画view
+        由于上面的MyView的高度是match_parent的,所以要看到这个控件的效果,需要把上面那个控件注起来
+    -->
+    <!--<com.android.szss.a4paint.MyDashView
+        android:id="@+id/my_dash_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <com.android.szss.a4paint.GradeProgressView
+        android:id="@+id/gradeprogressview"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
