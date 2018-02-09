@@ -25,11 +25,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>-->
 
-    <com.android.szss.a4paint.GradeProgressView
+    <!--<com.android.szss.a4paint.GradeProgressView
         android:id="@+id/gradeprogressview"
         android:layout_width="190dp"
         android:layout_height="190dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"/>-->
 
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="click me"
+        android:theme="@style/ButtonStyle"/>
+
+    <android.support.v4.widget.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

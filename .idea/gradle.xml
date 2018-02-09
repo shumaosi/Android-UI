@@ -12,7 +12,9 @@
             <option value="$PROJECT_DIR$/2.myviewpager" />
             <option value="$PROJECT_DIR$/3.touchtest" />
             <option value="$PROJECT_DIR$/4.paint" />
+            <option value="$PROJECT_DIR$/5.materialdesign" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/recyclerviewonitemtouchhelper" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

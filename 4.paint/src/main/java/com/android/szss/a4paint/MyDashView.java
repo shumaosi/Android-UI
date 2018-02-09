@@ -34,7 +34,7 @@ public class MyDashView extends View {
         drawDashPathEffect(canvas);
     }
 
-    private Paint getPaint(){
+    private Paint getPaint() {
         Paint paint = new Paint();
         paint.setStrokeWidth(4);
         paint.setColor(Color.GREEN);

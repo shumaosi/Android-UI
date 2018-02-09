@@ -10,8 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        GradeProgressView gradeProgressView = findViewById(R.id.gradeprogressview);
-        gradeProgressView.setProgressWidthAnimation(100);
+//        GradeProgressView gradeProgressView = findViewById(R.id.gradeprogressview);
+//        gradeProgressView.setProgressWidthAnimation(100);
 
     }
 }
