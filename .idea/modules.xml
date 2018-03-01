@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/3.touchtest/3.touchtest.iml" filepath="$PROJECT_DIR$/3.touchtest/3.touchtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/4.paint/4.paint.iml" filepath="$PROJECT_DIR$/4.paint/4.paint.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.materialdesign/5.materialdesign.iml" filepath="$PROJECT_DIR$/5.materialdesign/5.materialdesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6.propertyanimation/6.propertyanimation.iml" filepath="$PROJECT_DIR$/6.propertyanimation/6.propertyanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerviewonitemtouchhelper/recyclerviewonitemtouchhelper.iml" filepath="$PROJECT_DIR$/recyclerviewonitemtouchhelper/recyclerviewonitemtouchhelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/ui.iml" filepath="$PROJECT_DIR$/ui.iml" />

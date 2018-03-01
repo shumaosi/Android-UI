@@ -16,6 +16,7 @@ public class ItemTouchCallBack extends ItemTouchHelper.Callback {
     public ItemTouchCallBack(ItemTouchHelperAdapterCallback itemTouchHelperAdapterCallback) {
         this.mItemTouchHelperAdapterCallback = itemTouchHelperAdapterCallback;
     }
+    
 
     @Override
     public int getMovementFlags(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder) {
@@ -38,5 +39,10 @@ public class ItemTouchCallBack extends ItemTouchHelper.Callback {
     @Override
     public boolean isLongPressDragEnabled() {
         return super.isLongPressDragEnabled();
+    }
+
+    @Override
+    public long getAnimationDuration(RecyclerView recyclerView, int animationType, float animateDx, float animateDy) {
+        return super.getAnimationDuration(recyclerView, animationType, animateDx, animateDy);
     }
 }
